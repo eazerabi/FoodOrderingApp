@@ -1,25 +1,25 @@
 .explore-menu{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
-
 .explore-menu h1{
-    color :#262626;
-    font-weight:500;
+    color: #262626;
+    font-weight: 500;
 }
-
 .explore-menu-text{
-    max-width:60%;
-    columns:#808080;
+    max-width: 60%;
+    color: #808080;
 }
-
 .explore-menu-list{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    align-items:center;
-    gap:30px;
-    text-align:center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
     margin: 20px 0px;
-    overflow-x:scroll;
+    overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
 }
