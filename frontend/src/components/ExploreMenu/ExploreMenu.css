@@ -38,6 +38,12 @@
     font-size: max(1.4vw,16px);
     cursor: pointer;
 }
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #E2E2E2;
+    border: none;
+}
 
 @media (max-width:1050px) {
     .explore-menu-text{
