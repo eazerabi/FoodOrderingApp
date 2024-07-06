@@ -23,3 +23,11 @@
 .explore-menu-list::-webkit-scrollbar{
     display: none;
 }
+
+.explore-menu-list-item img{
+    width:7.5vm;
+    min-width: 80px;
+    cursor:pointer;
+    border-radius:50%;
+    
+}
